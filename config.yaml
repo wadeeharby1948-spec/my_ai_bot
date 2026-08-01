@@ -1,0 +1,38 @@
+model:
+  default: "gemini/gemini-2.0-flash"
+  provider: "gemini"
+  api_key: "${GEMINI_API_KEY}"
+
+gateway:
+  platforms:
+    telegram:
+      enabled: true
+      extra:
+        status_indicator: true
+        status_online: "🟢 Online"
+        status_offline: "🔴 Offline"
+
+terminal:
+  backend: "local"
+  cwd: "."
+  timeout: 180
+  lifetime_seconds: 300
+
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+  memory_char_limit: 2200
+  user_char_limit: 1375
+  nudge_interval: 10
+  flush_min_turns: 6
+
+skills:
+  creation_nudge_interval: 15
+
+agent:
+  max_turns: 500
+  verbose: false
+  reasoning_effort: "medium"
+
+platform_toolsets:
+  telegram: [hermes-telegram]
