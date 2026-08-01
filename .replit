@@ -1,4 +1,2 @@
-{
-  "run": "bash start.sh",
-  "entrypoint": "bash start.sh"
-}
+run = "bash start.sh"
+entrypoint = "bash start.sh"
