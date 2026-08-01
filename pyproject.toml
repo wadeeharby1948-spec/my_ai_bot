@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "hermes-agent-telegram"
+version = "0.1.0"
+description = "Hermes Agent Telegram Bot"
+requires-python = ">=3.11"
+
+[tool.setuptools]
+packages = []
