@@ -1,4 +1,2 @@
-{
-  "run": "python main.py",
-  "entrypoint": "python main.py"
-}
+run = "python main.py"
+entrypoint = "python main.py"
