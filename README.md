@@ -1,4 +1,4 @@
-# Hermes Agent - Telegram Bot (Cloud Deployment)
+# Hermes Agent - Telegram Bot
 
 متكامل مع Hugging Face AI ويعمل 24/7 على سيرفر سحابي مجاني.
 
