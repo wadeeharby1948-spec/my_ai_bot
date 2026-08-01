@@ -1,7 +1,8 @@
 model:
-  default: "gemini/gemini-2.0-flash"
-  provider: "gemini"
-  api_key: "${GEMINI_API_KEY}"
+  default: "huggingface/meta-llama/Llama-3.1-8B-Instruct"
+  provider: "huggingface"
+  api_key: "${HF_TOKEN}"
+  base_url: "https://router.huggingface.co/v1"
 
 gateway:
   platforms:
